@@ -4,6 +4,6 @@ export type UserType = {
     firstName:string
     lastName:string
     email:string
-    color:string
+    eyeColor:string
     age:number
 }

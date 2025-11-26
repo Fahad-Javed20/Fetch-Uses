@@ -15,7 +15,7 @@ const UserComponent = ({ user }: UserComponentProps) => {
         src={user.image}
         alt={fullName}
       />
-      <h2 className="text-xl font-semibold my-4 text-left pl-3">
+      <h2 style={{backgroundColor:user.eyeColor}} className="text-xl font-semibold my-4 text-left pl-3">
         {fullName}
       </h2>
 
