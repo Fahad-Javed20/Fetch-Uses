@@ -9,7 +9,7 @@ const UserComponent = ({ user }: UserComponentProps) => {
   const fullName = `${user.firstName} ${user.lastName}`;
 
   return (
-    <div style={{background:user.color}} className="max-w-sm w-full  shadow-lg rounded-xl">
+    <div className="max-w-sm w-full  shadow-lg rounded-xl">
       <img
         className="rounded-xl w-full h-32 object-cover"
         src={user.image}
