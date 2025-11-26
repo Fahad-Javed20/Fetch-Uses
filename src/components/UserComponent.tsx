@@ -24,7 +24,7 @@ const UserComponent = ({ user }: UserComponentProps) => {
         field. For any communication, you can reach me at {user.email}.
       </p>
 
-      <button className="w-2/3 py-2 bg-linear-to-r from-purple-600 to-pink-600 font-bold text-white my-5 rounded-xl mx-auto block">
+      <button className="w-2/3 py-1 bg-linear-to-r from-purple-600 to-pink-600 font-bold text-white my-5 rounded-xl mx-auto block">
         Contact Me
       </button>
     </div>

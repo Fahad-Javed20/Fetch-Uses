@@ -7,7 +7,7 @@ interface UserListComponentProps {
 
 const UserListComponent = ({ users }: UserListComponentProps) => {
   return (
-    <div>
+    <div className="flex gap-3 flex-wrap">
       {users.map((userData) => (
         <UserComponent key={userData.id} user={userData} />
       ))}
