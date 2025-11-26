@@ -1,3 +1,4 @@
+
 import type { UserType } from "../types/UserType";
 
 interface UserComponentProps {
@@ -8,7 +9,7 @@ const UserComponent = ({ user }: UserComponentProps) => {
   const fullName = `${user.firstName} ${user.lastName}`;
 
   return (
-    <div className="max-w-sm w-full bg-white shadow-lg rounded-xl">
+    <div style={{background:user.color}} className="max-w-sm w-full  shadow-lg rounded-xl">
       <img
         className="rounded-xl w-full h-32 object-cover"
         src={user.image}
